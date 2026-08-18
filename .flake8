@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 120
+ignore = E121,E203,E225,E226,E231,E251,E261,E275,E302,E303,E712,W191,E101,E116,E117,E131,W293
+per-file-ignores =
+    server/djangoapp/migrations/*.py: E501
